@@ -1,0 +1,13 @@
+model,MAE,RMSE,SMAPE,MAPE
+Chronos_bolt_tiny,321.28,431.85,5.5,5.78
+Chronos_bolt_small,324.01,423.57,5.52,5.76
+Chronos_bolt_base,347.03,438.28,5.98,6.26
+Chronos_bolt_mini,348.46,431.22,5.99,6.26
+Persistence,371.5,456.62,6.38,6.65
+Chronos_2,387.65,504.71,6.6,6.96
+Moirai_small,496.59,610.98,8.44,8.99
+TimesFM_500,509.84,583.32,8.98,9.43
+Moirai_base,528.45,662.88,9.01,9.65
+TimesFM_200,532.42,618.18,9.37,9.94
+Moirai_large,628.86,843.26,10.32,11.34
+ARIMA,698.12,786.05,12.08,12.96
