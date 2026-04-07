@@ -217,15 +217,8 @@ def main():
         apply_axis_style(ax)
         ax.legend(loc="upper left", bbox_to_anchor=(1.02, 1), borderaxespad=0.0, frameon=False)
         fig.tight_layout()
-        # plt.savefig(f"results_all/actual_vs_models_{file}.pdf", dpi=200)
-        # plt.savefig(f"results_all/actual_vs_models_{file}.png", dpi=200)
         plt.savefig(f"results_all/actual_vs_models_{file}.pdf", dpi=200, bbox_inches="tight")
         plt.close(fig)
-        # Also show if running interactively
-        # try:
-        #     plt.show()
-        # except Exception:
-        #     pass
 
         # Metrics
         rows = []
