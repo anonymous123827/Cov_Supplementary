@@ -38,7 +38,7 @@ def load_mode(mode: str):
                 "Chronos_2": "results_domestic_2006/no_co/Chronos-2_None.csv",
                 "Persistence": "results_domestic_2006/no_co/Persistence_merged.csv",
             }
-        case "domestic_pressure":
+        case "domestic_IOCI":
             FILES = {
                 "ARIMAX": "results_domestic_2006/IOCI/AutoArima_forecasts_pressure.csv",
                 "TimesFM_200": "results_domestic_2006/IOCI/TimesFM200_9_pressure.csv",
@@ -163,7 +163,7 @@ def main():
 
     files_arr = [
         'no_co_domestic',
-        'domestic_pressure',
+        'domestic_IOCI',
         'no_co_international',
         'international_google_3',
     ]
